@@ -25,7 +25,7 @@ export class Projects extends Component {
                                 {d.name}
                             </CardTitle>
                             <CardText>
-                                {d.cls}
+                                {d.description}
                             </CardText>
                         </CardBody>
                     </Card>
