@@ -15,13 +15,13 @@ class App extends Component {
 
           <header className='App-header'>
             <Link to="/">Home</Link>
-            {'    '}
+            {' '}
             <Link to="/about">About</Link>
-            {'    '}
+            {' '}
             <Link to="/projects">Projects</Link>
-            {'    '}
+            {' '}
             <Link to="/work">Work Experience</Link>
-            {'    '}
+            {' '}
           </header>
           <Route exact path="/" component={Homepage} />
           <Route path="/projects" component={Projects} />
